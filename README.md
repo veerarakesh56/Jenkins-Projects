@@ -5,7 +5,7 @@
 
 
 
-![Screenshot 2023-02-01 at 5 46 14 PM](https://user-images.githubusercontent.com/43399466/216040281-6c8b89c3-8c22-4620-ad1c-8edd78eb31ae.png)
+![216040281-6c8b89c3-8c22-4620-ad1c-8edd78eb31ae](https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/016ff5e2-dca2-473c-acdf-ad627f6b23bf)
 
 Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more.
 
@@ -15,7 +15,7 @@ Install Jenkins, configure Docker as agent, set up cicd, deploy applications to 
 - Instances(running)
 - Launch instances
 
-<img width="994" alt="Screenshot 2023-02-01 at 12 37 45 PM" src="https://user-images.githubusercontent.com/43399466/215974891-196abfe9-ace0-407b-abd2-adcffe218e3f.png">
+<img width="994" alt="215974891-196abfe9-ace0-407b-abd2-adcffe218e3f" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/44274d05-7a6c-4c0c-bd47-3ee20f453818">
 
 ### Install Jenkins.
 
@@ -56,7 +56,7 @@ sudo apt-get install jenkins
 - Security groups
 - Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed `All traffic`).
 
-<img width="1187" alt="Screenshot 2023-02-01 at 12 42 01 PM" src="https://user-images.githubusercontent.com/43399466/215975712-2fc569cb-9d76-49b4-9345-d8b62187aa22.png">
+<img width="1187" alt="215975712-2fc569cb-9d76-49b4-9345-d8b62187aa22" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/cfaecf37-e576-49b5-8ec3-c48aa6290ba3">
 
 
 ### Login to Jenkins using the below URL:
@@ -71,23 +71,23 @@ After you login to Jenkins,
       - Run the command to copy the Jenkins Admin Password - `sudo cat /var/lib/jenkins/secrets/initialAdminPassword`
       - Enter the Administrator password
       
-<img width="1291" alt="Screenshot 2023-02-01 at 10 56 25 AM" src="https://user-images.githubusercontent.com/43399466/215959008-3ebca431-1f14-4d81-9f12-6bb232bfbee3.png">
+<img width="1291" alt="215959008-3ebca431-1f14-4d81-9f12-6bb232bfbee3" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/1e831900-09a1-4894-9e1b-b70ad12ff012">
 
 ### Click on Install suggested plugins
 
-<img width="1291" alt="Screenshot 2023-02-01 at 10 58 40 AM" src="https://user-images.githubusercontent.com/43399466/215959294-047eadef-7e64-4795-bd3b-b1efb0375988.png">
+<img width="1291" alt="215959294-047eadef-7e64-4795-bd3b-b1efb0375988" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/264bec0f-3f66-4b33-9e38-d87eef02f1ae">
 
 Wait for the Jenkins to Install suggested plugins
 
-<img width="1291" alt="Screenshot 2023-02-01 at 10 59 31 AM" src="https://user-images.githubusercontent.com/43399466/215959398-344b5721-28ec-47a5-8908-b698e435608d.png">
+<img width="1291" alt="215959398-344b5721-28ec-47a5-8908-b698e435608d" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/1ebc2b07-bef5-41ff-8492-46b44e94fe8a">
 
 Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
-<img width="990" alt="Screenshot 2023-02-01 at 11 02 09 AM" src="https://user-images.githubusercontent.com/43399466/215959757-403246c8-e739-4103-9265-6bdab418013e.png">
+<img width="990" alt="215959757-403246c8-e739-4103-9265-6bdab418013e" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/73efb9da-5acd-4b89-8bc4-c2c55830e507">
 
 Jenkins Installation is Successful. You can now starting using the Jenkins 
 
-<img width="990" alt="Screenshot 2023-02-01 at 11 14 13 AM" src="https://user-images.githubusercontent.com/43399466/215961440-3f13f82b-61a2-4117-88bc-0da265a67fa7.png">
+<img width="990" alt="215961440-3f13f82b-61a2-4117-88bc-0da265a67fa7" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/684e27d4-05a2-4a49-aaa3-8e9abd06291c">
 
 ## Install the Docker Pipeline plugin in Jenkins:
 
@@ -96,8 +96,8 @@ Jenkins Installation is Successful. You can now starting using the Jenkins
    - In the Available tab, search for "Docker Pipeline".
    - Select the plugin and click the Install button.
    - Restart Jenkins after the plugin is installed.
-   
-<img width="1392" alt="Screenshot 2023-02-01 at 12 17 02 PM" src="https://user-images.githubusercontent.com/43399466/215973898-7c366525-15db-4876-bd71-49522ecb267d.png">
+
+<img width="1392" alt="215973898-7c366525-15db-4876-bd71-49522ecb267d" src="https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/459b26fc-e98c-45c0-bcf7-877b0466fee7">
 
 Wait for the Jenkins to be restarted.
 
