@@ -5,7 +5,6 @@
 
 
 
-![216040281-6c8b89c3-8c22-4620-ad1c-8edd78eb31ae](https://github.com/veerarakesh56/Jenkins-Projects/assets/171412850/016ff5e2-dca2-473c-acdf-ad627f6b23bf)
 
 Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more.
 
